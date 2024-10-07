@@ -65,7 +65,7 @@ class ContextChatbot:
 
     def main(self):
         # Create two tabs
-        tab1, tab2 = st.tabs(["Chat", "Random Text"])
+        tab1, tab2 = st.tabs(["Chat", "Evalution"])
 
         # Chat functionality in tab1
         with tab1:
