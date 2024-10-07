@@ -13,9 +13,9 @@ from langchain_core.prompts.prompt import PromptTemplate
 from graph_agent.exam_agent import ExamBotStateMachine
 import pandas as pd
 load_dotenv()
-st.set_page_config(page_title="Context aware chatbot", page_icon="⭐")
-st.header('Context aware chatbot')
-st.write('Enhancing Chatbot Interactions through Context Awareness')
+st.set_page_config(page_title="Obstetrics and gynaecology Bot", page_icon="⭐")
+st.header('Obstetrics and gynaecology Bot')
+st.write('A way to practice medical exam. This is a Mockup UI for inital version')
 
 
 class ContextChatbot:
