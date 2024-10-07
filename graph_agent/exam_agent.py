@@ -93,7 +93,7 @@ class ExamBotStateMachine:
             print(user_input,next_node)
             if next_node == 'QUESTION_NODE':
                 self.state['answers'].append(user_input)
-                if  len(self.state['answers']) >= 2:
+                if  len(self.state['answers']) >= 10:
                     self.evaluation_generator()
                     return 'The END'
                 resp = self.question_generator()
